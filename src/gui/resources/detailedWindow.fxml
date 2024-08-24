@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.java.DetailedWindowController">
+   <children>
+      <Text layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detailed Information">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ListView fx:id="marketInfo" layoutX="42.0" layoutY="60.0" prefHeight="243.0" prefWidth="515.0" />
+      <Text layoutX="14.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reviews">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ListView fx:id="reviews" layoutX="42.0" layoutY="354.0" prefHeight="243.0" prefWidth="515.0" />
+   </children>
+</AnchorPane>

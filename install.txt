@@ -1,0 +1,7 @@
+In the manuals directory there is a SQL dump file that contains all the data in the database. Run it in MySQL or use it to import using MySQL workbench to load the database onto your computer. You must run this script as the root user.
+
+There is also an java hw5 etl.py python file in the manuals directory which is a script I used to perform ETL on the given data in the beginning of the assignment. However, no ETL was done in SQL so all the data in the dump should be ready to be imported without any problems. 
+
+Important Note: The java program expects a MySQL account with username `appuser` and password `ilovejava`.This is hardcoded into the program so please have a MySQL connection instance with this username and password for the app to work.
+
+A diagram of the database structure is included in the manuals directory as well. :)
