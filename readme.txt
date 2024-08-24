@@ -10,8 +10,8 @@ and serves as the classpath for the application.
 
 To generate javadoc:
 
-On Windows, execute the command: .\scripts\javadoc_windows.cmd "<path to javafx jars>"
-On Linux, execute the command: . ./scripts/javadoc_linux.sh "<path to javafx jars>"
+On Windows, execute the command: .\scripts\javadoc_windows.cmd "<path to javafx jars>" "<path to MySQL connector jar>"
+On Linux, execute the command: . ./scripts/javadoc_linux.sh "<path to javafx jars>" "<path to MySQL connector jar>"
 
 
 For all scripts, sure to include the correct absolute path to the folder containing your javafx jars and the path to your MySQL connector jar, and please escape all spaces in directory names on linux (directory\ with\ space), or enclose all paths in quotes.
